@@ -1,24 +1,15 @@
 /*
-Practical-5 Write a C program to enter a distance in to kilometre and convert it into meter, feet, inches and centimetres
+Practical-6 Write a program to compute Fahrenheit from centigrade (f=1.8*c +32)
 */
-
-float meter,inch,cm,feet,km;
-printf("Enter the Distance in Kilometer: ");
-scanf("%f",&km);
-meter = 1000*km;
-cm = 100000*km;
-inch = 39370*km;
-feet = 3281*km;
-printf("\nDistance in KiloMeter: %f",km);
-printf("\nDistance in Meter: %f",meter);
-printf("\nDistance in Centimeter: %f",cm);
-printf("\nDistance in Inch: %f",inch);
-printf("\nDistance in Feet: %f",feet);
+float f,c;
+printf("Enter Celsius: ");
+scanf("%f",&c);
+f = (c*9/5) + 32;
+printf("Fahrenheit: %f",f);
 
 
 /*  Explanation:
 
-This program converts given distance into KiloMeter, Meter, Centimeter, Inch, Feet.
-And prints all of them in different lines.
+This program converts Celsius into fahrenheit using f = (c*9/5) + 32. A simple C program!
 
 */
