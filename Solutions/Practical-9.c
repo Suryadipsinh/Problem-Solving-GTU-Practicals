@@ -5,7 +5,6 @@ the student is pass or fail (using if else)
 
 
 int marks;
-/* Code Area Begins */
 	printf("Enter Marks of the Student: ");
 	scanf("%d",&marks);
 	if(marks<35){
